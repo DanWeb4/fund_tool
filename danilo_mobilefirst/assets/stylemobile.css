@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* O reset de CSS é uma técnica usada para remover os estilos padrão aplicados pelos navegadores, garantindo
+ que os elementos da sua página tenham uma aparência consistente em diferentes navegadores. Aqui está um exemplo básico: */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+background-image: linear-gradient(to bottom,#d0650c,#f3ae57,#ffdaa2);
+background-position: bottom;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+h1{
+margin: 17px;
+padding: 3px;
+box-sizing: 20px;
+background-color :
+border: ;
+border-radius: 15px;
+
+} 
+
+header{
+height: 100px;
+display: flex;
+justify-content: center;
+background-image: 
+
+}
+
+h1{
+color: rgb(255, 252, 252);
+font-family: Arial, Helvetica, sans-serif;
+}
+
+nav{
+display: flex; 
+justify-content: space-around;
+
+
+
+
+}
+
+a{
+color: aliceblue;
+}
+
+
+
+a:hover {
+color: aliceblue;
+
+
+
+}
+
+main{
+display: flex;
+just
+
+}
