@@ -10,7 +10,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 
 body{
-background-image: linear-gradient(to bottom,#d0650c,#f3ae57,#ffdaa2);
+background-image: linear-gradient(to bottom,#cd5f06,#f3ae57,#ffdaa2);
 background-position: bottom;
 background-repeat: no-repeat;
 background-attachment: fixed;
@@ -27,26 +27,56 @@ border-radius: 15px;
 } 
 
 header{
+background-color: #ead0b0;
 height: 100px;
 display: flex;
 justify-content: center;
-background-image: 
+background-color: #f0a242;
+height: 44px;
+
 
 }
 
 h1{
+    
 color: rgb(255, 252, 252);
 font-family: Arial, Helvetica, sans-serif;
+height:30px;
+width: 555px;
+margin-top: 6px;
+position: absolute;
+top: -4px;
+right: px;
+left: 100px;
+
 }
 
+#burger{
+cursor: pointer;
+font-size: 24px;
+color: white
+
+
+
+
+
+}
 nav{
 display: flex; 
-justify-content: space-around;
-
-
-
+justify-content: flex-start;
+background-color: #f3ae57
+padding: 29px;
+align-items: center;
 
 }
+
+nav>a{
+color: ;
+text-decoration: none;
+cursor: pointer;
+
+}
+
 
 a{
 color: aliceblue;
@@ -62,7 +92,48 @@ color: aliceblue;
 }
 
 main{
-display: flex;
-just
+
+
 
 }
+
+img{
+position: relative;
+top: 20px;
+left: auto
+
+    
+}
+
+article{
+text-align: center;
+margin-bottom: 300px;
+
+
+
+}
+
+h2{
+font-size: 37px;
+
+}
+
+p{
+font-size: 15px;
+
+
+}
+
+/* midia para tablet */
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+    
+}
+
+
+
+
+
+
+
+
